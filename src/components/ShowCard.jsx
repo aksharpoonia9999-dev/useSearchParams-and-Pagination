@@ -47,7 +47,7 @@ export default function ShowCard() {
     <main className="min-h-screen w-full overflow-x-clip bg-[#0b0b0d] px-4 py-10 text-white min-[375px]:px-5 min-[375px]:py-12 sm:px-8 sm:py-14">
       <div className="mx-auto w-full max-w-6xl">
         <p className="mb-3 text-[10px] uppercase tracking-[0.25em] text-white/40 min-[375px]:text-xs min-[375px]:tracking-[0.3em]">
-          The Timepass
+          Project Of
         </p>
 
         <h1 className="wrap-break-word text-3xl font-semibold tracking-tight min-[375px]:text-4xl sm:text-5xl">

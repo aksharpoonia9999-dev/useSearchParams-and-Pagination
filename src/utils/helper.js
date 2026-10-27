@@ -43,6 +43,9 @@ import The100Img from "../assets/the-100.jpg";
 import YouImg from "../assets/YOU.jpg";
 import VisionQuestImg from "../assets/vision-quest.jpg";
 import SpiderNoirImg from "../assets/spider-noir.jpg";
+import SonsOfAnarchyImg from "../assets/SOA.jpg"
+import FromImg from "../assets/from.jpg"
+import MayansMCImg from "../assets/mayans.jpg"
 
 export const shows = [
   {
@@ -657,7 +660,7 @@ export const shows = [
     content:
       "Vision, brought back to life without the memories that once defined him, embarks on a journey to rediscover his identity and purpose. As fragments of his past collide with the mysteries of his new existence, the line between artificial intelligence and humanity begins to blur, forcing him to confront what it truly means to be alive.",
     image: VisionQuestImg,
-    accent: "white",
+    accent: "blue",
     tagline: "TO BE HUMAN IS TO REMEMBER.",
     year: "2026",
   },
@@ -671,8 +674,52 @@ export const shows = [
     content:
       "In the shadowy streets of 1930s New York, a battle-worn private investigator must confront the ghosts of his past and the criminal underworld threatening his city. Living in a world of corruption, mystery, and moral ambiguity, he struggles to balance his life as a detective with the burden of being a masked hero. When a case pulls him into a dangerous conspiracy, he discovers that some shadows are impossible to escape.",
     image: SpiderNoirImg,
-    accent: "black",
+    accent: "red",
     tagline: "EVERY CITY HAS ITS SHADOWS.",
     year: "2026",
   },
+  {
+  title: "FROM",
+  category: "Supernatural Horror / Mystery Thriller",
+  slug: "from",
+  quote: "You can't escape what you don't understand.",
+  excerpt:
+    "Trapped in a mysterious town with no way out, its unwilling residents struggle to survive the horrors that emerge after dark.",
+  content:
+    "In a nightmarish town that traps everyone who enters, residents desperately search for a way home while uncovering secrets buried beneath its seemingly ordinary streets. As terrifying creatures emerge after sunset, the townspeople must follow strict rules to survive the night. With every discovery comes another mystery, and the deeper they dig into the town's secrets, the more they question whether escape is even possible.",
+  image: FromImg,
+  accent: "red",
+  tagline: "YOU CAN'T LEAVE. YOU CAN'T STAY SAFE.",
+  year: "2022",
+},
+
+{
+  title: "SONS OF ANARCHY",
+  category: "Crime Drama / Outlaw Thriller",
+  slug: "sons-of-anarchy",
+  quote: "Fear the Reaper",
+  excerpt:
+    "A conflicted biker struggles to reconcile his loyalty to an outlaw motorcycle club with his growing doubts about its violent legacy.",
+  content:
+    "In the fictional town of Charming, California, Jax Teller navigates the brutal world of an outlaw motorcycle club built on brotherhood, loyalty, and bloodshed. Torn between his love for his family and his commitment to the club, he begins questioning the legacy left behind by his father. As rival gangs, criminal enterprises, and internal power struggles threaten everything he knows, Jax faces a relentless battle between the man he wants to become and the darkness surrounding him.",
+  image: SonsOfAnarchyImg,
+  accent: "red",
+  tagline: "BROTHERHOOD. LOYALTY. BETRAYAL.",
+  year: "2008",
+},
+
+{
+  title: "MAYANS M.C.",
+  category: "Crime Drama / Biker Thriller",
+  slug: "mayans-mc",
+  quote: "Blood makes you family. Loyalty makes you brothers.",
+  excerpt:
+    "A young outlaw biker fights for power, identity, and redemption while navigating the dangerous world of the Mayans Motorcycle Club.",
+  content:
+    "Along the California-Mexico border, Ezekiel 'EZ' Reyes struggles to forge his own identity within the Mayans Motorcycle Club. Haunted by his past and driven by ambition, he rises through the ranks of a brotherhood shaped by loyalty, violence, and criminal alliances. As cartel conflicts intensify and rivalries threaten to tear the club apart, EZ's pursuit of power begins to blur the line between justice and vengeance, putting his family, his brothers, and his own humanity at risk.",
+  image: MayansMCImg,
+  accent: "blue",
+  tagline: "THE ROAD TO POWER IS PAID IN BLOOD.",
+  year: "2018",
+},
 ];
