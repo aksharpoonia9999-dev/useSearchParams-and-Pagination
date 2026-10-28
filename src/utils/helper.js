@@ -43,9 +43,12 @@ import The100Img from "../assets/the-100.jpg";
 import YouImg from "../assets/YOU.jpg";
 import VisionQuestImg from "../assets/vision-quest.jpg";
 import SpiderNoirImg from "../assets/spider-noir.jpg";
-import SonsOfAnarchyImg from "../assets/SOA.jpg"
-import FromImg from "../assets/from.jpg"
-import MayansMCImg from "../assets/mayans.jpg"
+import SonsOfAnarchyImg from "../assets/SOA.jpg";
+import FromImg from "../assets/from.jpg";
+import MayansMCImg from "../assets/mayans.jpg";
+import GothamImg from "../assets/gotham.jpg";
+import LegaciesImg from "../assets/legacies.jpg";
+import SmallvilleImg from "../assets/smallville.jpg";
 
 export const shows = [
   {
@@ -482,6 +485,22 @@ export const shows = [
     tagline: "FAMILY IS POWER.",
     year: "2013 — 2018",
   },
+
+  {
+    title: "Legacies",
+    category: "Supernatural Drama",
+    slug: "legacies",
+    quote: "Some legacies are written in blood.",
+    excerpt:
+      "A new generation of supernatural beings discovers their powers at a school built to protect the extraordinary.",
+    content:
+      "Hope Mikaelson, the daughter of a vampire, werewolf, and witch, navigates life at the Salvatore School alongside young vampires, werewolves, and witches. As ancient monsters emerge and dangerous secrets unfold, they must learn to control their powers while confronting the darkness within themselves.",
+    image: LegaciesImg,
+    accent: "purple",
+    tagline: "MONSTERS AREN'T BORN. THEY'RE MADE.",
+    year: "2018 — 2022",
+  },
+
   {
     title: "Teen Wolf",
     category: "Supernatural Drama",
@@ -679,47 +698,75 @@ export const shows = [
     year: "2026",
   },
   {
-  title: "FROM",
-  category: "Supernatural Horror / Mystery Thriller",
-  slug: "from",
-  quote: "You can't escape what you don't understand.",
-  excerpt:
-    "Trapped in a mysterious town with no way out, its unwilling residents struggle to survive the horrors that emerge after dark.",
-  content:
-    "In a nightmarish town that traps everyone who enters, residents desperately search for a way home while uncovering secrets buried beneath its seemingly ordinary streets. As terrifying creatures emerge after sunset, the townspeople must follow strict rules to survive the night. With every discovery comes another mystery, and the deeper they dig into the town's secrets, the more they question whether escape is even possible.",
-  image: FromImg,
-  accent: "red",
-  tagline: "YOU CAN'T LEAVE. YOU CAN'T STAY SAFE.",
-  year: "2022",
-},
+    title: "Gotham",
+    category: "Crime Thriller",
+    slug: "gotham",
+    quote: "The city creates its own monsters.",
+    excerpt:
+      "Before the rise of Batman, Gotham City descends into corruption, chaos, and the birth of legendary villains.",
+    content:
+      "Detective James Gordon fights to restore order in a city drowning in corruption, crime, and madness. As a young Bruce Wayne confronts the mystery behind his parents' murder, the streets of Gotham give rise to notorious figures whose darkness will shape the city's future forever.",
+    image: GothamImg,
+    accent: "blue",
+    tagline: "BEFORE THE LEGEND, THERE WAS THE DARKNESS.",
+    year: "2014 — 2019",
+  },
+  {
+    title: "Smallville",
+    category: "Superhero Drama",
+    slug: "smallville",
+    quote: "Destiny is written in the stars.",
+    excerpt:
+      "A young Clark Kent discovers his extraordinary abilities while struggling to find his place in a world that fears the unknown.",
+    content:
+      "Growing up in the quiet town of Smallville, Clark Kent struggles to understand his alien origins and the incredible powers that set him apart. As he faces dangerous meteor-infected enemies, complicated friendships, and the looming shadow of his destiny, Clark begins his journey toward becoming the hero the world will one day know as Superman.",
+    image: SmallvilleImg,
+    accent: "cyan",
+    tagline: "EVERY HERO HAS A BEGINNING.",
+    year: "2001 — 2011",
+  },
+  {
+    title: "FROM",
+    category: "Supernatural Horror / Mystery Thriller",
+    slug: "from",
+    quote: "You can't escape what you don't understand.",
+    excerpt:
+      "Trapped in a mysterious town with no way out, its unwilling residents struggle to survive the horrors that emerge after dark.",
+    content:
+      "In a nightmarish town that traps everyone who enters, residents desperately search for a way home while uncovering secrets buried beneath its seemingly ordinary streets. As terrifying creatures emerge after sunset, the townspeople must follow strict rules to survive the night. With every discovery comes another mystery, and the deeper they dig into the town's secrets, the more they question whether escape is even possible.",
+    image: FromImg,
+    accent: "red",
+    tagline: "YOU CAN'T LEAVE. YOU CAN'T STAY SAFE.",
+    year: "2022",
+  },
 
-{
-  title: "SONS OF ANARCHY",
-  category: "Crime Drama / Outlaw Thriller",
-  slug: "sons-of-anarchy",
-  quote: "Fear the Reaper",
-  excerpt:
-    "A conflicted biker struggles to reconcile his loyalty to an outlaw motorcycle club with his growing doubts about its violent legacy.",
-  content:
-    "In the fictional town of Charming, California, Jax Teller navigates the brutal world of an outlaw motorcycle club built on brotherhood, loyalty, and bloodshed. Torn between his love for his family and his commitment to the club, he begins questioning the legacy left behind by his father. As rival gangs, criminal enterprises, and internal power struggles threaten everything he knows, Jax faces a relentless battle between the man he wants to become and the darkness surrounding him.",
-  image: SonsOfAnarchyImg,
-  accent: "red",
-  tagline: "BROTHERHOOD. LOYALTY. BETRAYAL.",
-  year: "2008",
-},
+  {
+    title: "SONS OF ANARCHY",
+    category: "Crime Drama / Outlaw Thriller",
+    slug: "sons-of-anarchy",
+    quote: "Fear the Reaper",
+    excerpt:
+      "A conflicted biker struggles to reconcile his loyalty to an outlaw motorcycle club with his growing doubts about its violent legacy.",
+    content:
+      "In the fictional town of Charming, California, Jax Teller navigates the brutal world of an outlaw motorcycle club built on brotherhood, loyalty, and bloodshed. Torn between his love for his family and his commitment to the club, he begins questioning the legacy left behind by his father. As rival gangs, criminal enterprises, and internal power struggles threaten everything he knows, Jax faces a relentless battle between the man he wants to become and the darkness surrounding him.",
+    image: SonsOfAnarchyImg,
+    accent: "red",
+    tagline: "BROTHERHOOD. LOYALTY. BETRAYAL.",
+    year: "2008",
+  },
 
-{
-  title: "MAYANS M.C.",
-  category: "Crime Drama / Biker Thriller",
-  slug: "mayans-mc",
-  quote: "Blood makes you family. Loyalty makes you brothers.",
-  excerpt:
-    "A young outlaw biker fights for power, identity, and redemption while navigating the dangerous world of the Mayans Motorcycle Club.",
-  content:
-    "Along the California-Mexico border, Ezekiel 'EZ' Reyes struggles to forge his own identity within the Mayans Motorcycle Club. Haunted by his past and driven by ambition, he rises through the ranks of a brotherhood shaped by loyalty, violence, and criminal alliances. As cartel conflicts intensify and rivalries threaten to tear the club apart, EZ's pursuit of power begins to blur the line between justice and vengeance, putting his family, his brothers, and his own humanity at risk.",
-  image: MayansMCImg,
-  accent: "blue",
-  tagline: "THE ROAD TO POWER IS PAID IN BLOOD.",
-  year: "2018",
-},
+  {
+    title: "MAYANS M.C.",
+    category: "Crime Drama / Biker Thriller",
+    slug: "mayans-mc",
+    quote: "Blood makes you family. Loyalty makes you brothers.",
+    excerpt:
+      "A young outlaw biker fights for power, identity, and redemption while navigating the dangerous world of the Mayans Motorcycle Club.",
+    content:
+      "Along the California-Mexico border, Ezekiel 'EZ' Reyes struggles to forge his own identity within the Mayans Motorcycle Club. Haunted by his past and driven by ambition, he rises through the ranks of a brotherhood shaped by loyalty, violence, and criminal alliances. As cartel conflicts intensify and rivalries threaten to tear the club apart, EZ's pursuit of power begins to blur the line between justice and vengeance, putting his family, his brothers, and his own humanity at risk.",
+    image: MayansMCImg,
+    accent: "blue",
+    tagline: "THE ROAD TO POWER IS PAID IN BLOOD.",
+    year: "2018",
+  },
 ];
